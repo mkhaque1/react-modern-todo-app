@@ -9,7 +9,7 @@ function App() {
         <Dark />
       </div>
       <div>
-        <h1 className=" text-5xl text-white uppercase font-primary font-bold text-center pt-10 cursor-wait">
+        <h1 className=" text-5xl text-white uppercase font-primary font-bold text-center pt-10 ">
           Daily Task
         </h1>
         <TodoList />
