@@ -14,7 +14,7 @@ const Form = ({ createTodo }) => {
     <form className="mb-4 font-primary w-full " onSubmit={handleSubmit}>
       <input
         type="text"
-        className="outline-none bg-transparent border border-gray-500 p-4 w-full text-white mb-8 rounded placeholder:text-gray-300"
+        className="outline-none bg-transparent border border-gray-500 p-4 w-full text-white dark:text-gray-600 mb-8 rounded placeholder:text-gray-300"
         placeholder="What task do you have?"
         onChange={(e) => setValue(e.target.value)}
         value={value}

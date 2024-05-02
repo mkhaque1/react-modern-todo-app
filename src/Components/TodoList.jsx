@@ -32,7 +32,7 @@ const TodoList = () => {
   };
 
   return (
-    <div className="container mx-auto dark:bg-sky-700 bg-blue-950 mt-20 p-8 rounded-md">
+    <div className="container mx-auto dark:bg-white bg-blue-950 mt-20 p-8 rounded-md">
       <Form createTodo={createTodo} />
       {todoValue.map((todo, idx) =>
         todo.isEditing ? (
